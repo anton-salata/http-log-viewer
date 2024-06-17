@@ -1,0 +1,13 @@
+/TgBotLogViewer.Api/appsettings.Development.json
+/tgbotlogviewerui/obj
+/tgbotlogviewerui/node_modules
+/tgbotlogviewerui/.vscode
+/.vs
+/HttpLogViewer.Api/bin
+/HttpLogViewer.Api/obj
+/HttpLogViewer.Api/HttpLogViewer.Api.csproj.user
+/httplogviewerui/.vscode
+/httplogviewerui/obj
+/httplogviewerui/package-lock.json
+/httplogviewerui/httplogviewerui.esproj.user
+/HttpLogViewer.Api/appsettings.Development.json

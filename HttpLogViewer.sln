@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "httplogviewerui", "httplogviewerui\httplogviewerui.esproj", "{B0E2855C-8828-4B3E-A924-C541FA429253}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpLogViewer.Api", "HttpLogViewer.Api\HttpLogViewer.Api.csproj", "{DC34E6B4-740A-422F-9B40-40C704677B56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0E2855C-8828-4B3E-A924-C541FA429253}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0E2855C-8828-4B3E-A924-C541FA429253}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0E2855C-8828-4B3E-A924-C541FA429253}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B0E2855C-8828-4B3E-A924-C541FA429253}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0E2855C-8828-4B3E-A924-C541FA429253}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0E2855C-8828-4B3E-A924-C541FA429253}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{DC34E6B4-740A-422F-9B40-40C704677B56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC34E6B4-740A-422F-9B40-40C704677B56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC34E6B4-740A-422F-9B40-40C704677B56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC34E6B4-740A-422F-9B40-40C704677B56}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F18BC64-CE91-40C7-A414-8D448DB47F35}
+	EndGlobalSection
+EndGlobal
