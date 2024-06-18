@@ -1,7 +1,7 @@
+using HttpLogViewer.Api.Models;
+using HttpLogViwer.DAL.Repositories;
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
-using HttpLogViewer.Api.Models;
-using HttpLogViewer.Api.Repositories;
 
 namespace HttpLogViewer.Api
 {
@@ -43,10 +43,15 @@ namespace HttpLogViewer.Api
                 return client.GetDatabase(mongoUrl.DatabaseName);
             });
 
-            builder.Services.AddTransient<IRepository<HttpLogRecord>, HttpTrackingRepository>();
-            builder.Services.AddSingleton<HttpTrackingRepository>();
+            // Register HttpTrackingRepository with collection name
+            builder.Services.AddTransient<HttpTrackingRepository>(provider =>
+            {
+                var database = provider.GetRequiredService<IMongoDatabase>();
+                var settings = provider.GetRequiredService<AppSettings>();
+                return new HttpTrackingRepository(database, settings.HttpLogsCollectionName);
+            });
 
-           var app = builder.Build();
+            var app = builder.Build();
 
             app.UseCors("AllowLocalhost");
 

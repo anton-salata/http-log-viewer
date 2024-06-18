@@ -1,6 +1,6 @@
 ﻿using MongoDB.Bson;
 
-namespace HttpLogViewer.Api.Models
+namespace HttpLogViwer.DAL.Models
 {
     public class HttpLogRecord
     {

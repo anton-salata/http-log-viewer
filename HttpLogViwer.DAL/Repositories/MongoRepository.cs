@@ -6,7 +6,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HttpLogViewer.Api.Repositories
+namespace HttpLogViwer.DAL.Repositories
 {
     public class MongoRepository<TEntity> : IRepository<TEntity> where TEntity : class
     {

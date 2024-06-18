@@ -1,6 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using HttpLogViewer.Api.Models;
-using HttpLogViewer.Api.Repositories;
+﻿using HttpLogViwer.DAL.Models;
+using HttpLogViwer.DAL.Repositories;
+using Microsoft.AspNetCore.Mvc;
 
 namespace HttpLogViewer.Api.Controllers
 {

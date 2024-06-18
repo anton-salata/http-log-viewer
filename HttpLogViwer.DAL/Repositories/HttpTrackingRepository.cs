@@ -1,12 +1,12 @@
-﻿using HttpLogViewer.Api.Models;
-using Microsoft.Extensions.Options;
+﻿using HttpLogViwer.DAL.Models;
 using MongoDB.Driver;
 
-namespace HttpLogViewer.Api.Repositories
+namespace HttpLogViwer.DAL.Repositories
 {
     public class HttpTrackingRepository : MongoRepository<HttpLogRecord>
     {
-        public HttpTrackingRepository(IMongoDatabase database, IOptions<AppSettings> settings) : base(database, settings.Value.HttpLogsCollectionName)
+        public HttpTrackingRepository(IMongoDatabase database, string httpLogsCollectionName)
+            : base(database, httpLogsCollectionName)
         {
         }
 

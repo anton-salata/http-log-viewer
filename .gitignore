@@ -11,3 +11,5 @@
 /httplogviewerui/package-lock.json
 /httplogviewerui/httplogviewerui.esproj.user
 /HttpLogViewer.Api/appsettings.Development.json
+/HttpLogViwer.DAL/bin
+/HttpLogViwer.DAL/obj

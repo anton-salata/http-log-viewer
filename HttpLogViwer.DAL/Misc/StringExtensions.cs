@@ -1,6 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace HttpLogViewer.Api.Misc
+namespace HttpLogViwer.DAL.Misc
 {
     public static class StringExtensions
     {
