@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpLogViewer.Api", "HttpLo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpLogViwer.DAL", "HttpLogViwer.DAL\HttpLogViwer.DAL.csproj", "{814EFDD3-D91D-49DA-AC65-9315F7119A33}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpLogViwer.Tracker", "HttpLogViwer.Tracker\HttpLogViwer.Tracker.csproj", "{90A9F0EB-C109-4B45-A648-5A6462E25DCD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{814EFDD3-D91D-49DA-AC65-9315F7119A33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{814EFDD3-D91D-49DA-AC65-9315F7119A33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{814EFDD3-D91D-49DA-AC65-9315F7119A33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90A9F0EB-C109-4B45-A648-5A6462E25DCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90A9F0EB-C109-4B45-A648-5A6462E25DCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90A9F0EB-C109-4B45-A648-5A6462E25DCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90A9F0EB-C109-4B45-A648-5A6462E25DCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

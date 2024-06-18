@@ -13,3 +13,5 @@
 /HttpLogViewer.Api/appsettings.Development.json
 /HttpLogViwer.DAL/bin
 /HttpLogViwer.DAL/obj
+/HttpLogViwer.Tracker/bin
+/HttpLogViwer.Tracker/obj
